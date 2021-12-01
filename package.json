@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/displode/stm32-cube-programmer-xpack.git"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "bugs": {
     "url": "https://github.com/displode/stm32-cube-programmer-xpack/issues/"
   },
