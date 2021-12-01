@@ -4,7 +4,7 @@
   "description": "A source xPack with STM32CubeProgrammer",
   "main": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "git-log": "git log --pretty='%cd * %h %s' --date=short"
   },
   "repository": {
     "type": "git",
@@ -29,9 +29,9 @@
     "minimumXpmRequired": "0.10.8",
     "binaries": {
       "destination": "./.content",
-      "baseUrl" : "https://github.com/displode/stm32-cube-programmer-xpack/releases/download/b0.1.0",
+      "baseUrl": "https://github.com/displode/stm32-cube-programmer-xpack/releases/download/b0.1.0",
       "skip": 1,
-      "platforms" : {
+      "platforms": {
         "linux-ia32": {
           "skip": true
         },
