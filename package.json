@@ -4,7 +4,6 @@
   "description": "A source xPack with STM32CubeProgrammer",
   "main": "",
   "scripts": {
-    "git-log": "git log --pretty='%cd * %h %s' --date=short"
   },
   "repository": {
     "type": "git",
