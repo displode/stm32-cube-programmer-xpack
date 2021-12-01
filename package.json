@@ -26,6 +26,38 @@
   "dependencies": {},
   "devDependencies": {},
   "xpack": {
-    "minimumXpmRequired": "0.10.8"
+    "minimumXpmRequired": "0.10.8",
+    "binaries": {
+      "destination": "./.content",
+      "baseUrl" : "https://github.com/displode/stm32-cube-programmer-xpack/releases/download/b0.1.0",
+      "skip": 1,
+      "platforms" : {
+        "linux-ia32": {
+          "skip": true
+        },
+        "linux-arm64": {
+          "skip": true
+        },
+        "linux-arm": {
+          "skip": true
+        },
+        "linux-x64": {
+          "skip": true
+        },
+        "darwin-x64": {
+          "skip": true
+        },
+        "win32-ia32": {
+          "skip": true
+        },
+        "win32-x64": {
+          "fileName": "xpack-stm32cube-programmmer-v0.1.0-win32-x64.zip",
+          "sha256": "1d62f9c799b220e4355a523320f1a21f76b3a70ef912d41e2c77ef3c3c05e164"
+        }
+      }
+    },
+    "bin": {
+      "stm32cube-programmer": "./.content/STM32_Programmer_CLI"
+    }
   }
 }
