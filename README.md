@@ -1,2 +1,2 @@
-# stm32-cube-programmer-xpack
-A binary xPack with STM32CubeProgrammer
+This branch is used to recreate the 3rd party project history
+from release archives.
