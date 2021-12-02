@@ -58,7 +58,7 @@
       }
     },
     "bin": {
-      "STM32_Programmer_CLI": "./.content/STM32_Programmer_CLI"
+      "stm32-cube-programmer-cli": "./.content/bin/STM32_Programmer_CLI"
     }
   }
 }
