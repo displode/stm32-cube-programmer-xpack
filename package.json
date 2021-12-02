@@ -1,6 +1,6 @@
 {
   "name": "@displode/stm32-cube-programmer",
-  "version": "0.1.0-0.1",
+  "version": "0.1.0",
   "description": "A binary xPack with STM32CubeProgrammer",
   "main": "",
   "scripts": {},
@@ -58,7 +58,7 @@
       }
     },
     "bin": {
-      "stm32cube-programmer": "./.content/STM32_Programmer_CLI"
+      "STM32_Programmer_CLI": "./.content/STM32_Programmer_CLI"
     }
   }
 }
