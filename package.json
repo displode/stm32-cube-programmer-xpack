@@ -1,6 +1,6 @@
 {
   "name": "@displode/stm32-cube-programmer",
-  "version": "0.1.2",
+  "version": "0.1.3-2.9.0",
   "description": "A binary xPack with STM32CubeProgrammer",
   "main": "",
   "scripts": {},
