@@ -111,3 +111,8 @@ Thumbs.db
 
 # macOS
 .DS_Store
+
+# Local binary manipulation
+extracted/
+installed/
+released/
