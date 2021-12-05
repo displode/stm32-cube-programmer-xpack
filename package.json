@@ -35,30 +35,33 @@
     "minimumXpmRequired": "0.10.8",
     "binaries": {
       "destination": "./.content",
-      "baseUrl": "https://github.com/displode/stm32-cube-programmer-xpack/releases/download/v0.1.4-b2.9.0",
+      "baseUrl": "https://github.com/displode/stm32-cube-programmer-xpack/releases/download/v0.1.5-b2.9.0",
       "skip": 1,
       "platforms": {
-        "linux-ia32": {
+        "linux-arm": {
           "skip": true
         },
         "linux-arm64": {
           "skip": true
         },
-        "linux-arm": {
+        "linux-ia32": {
           "skip": true
         },
         "linux-x64": {
-          "skip": true
+          "fileName": "xpack-stm32-cube-programmer-b2.9.0-linux-x64.tar.gz",
+          "sha256": "b84702653305379ae2986b776313439509e6e4a394174e7b02c6aad79023ad82"
         },
         "darwin-x64": {
-          "skip": true
+          "fileName": "xpack-stm32-cube-programmer-b2.9.0-darwin-x64.tar.gz",
+          "sha256": "f3bb6c37498311e07b067cbc1d4a60fcedf5445fcb681d176525508be07d2412"
         },
         "win32-ia32": {
-          "skip": true
+          "fileName": "xpack-stm32-cube-programmer-b2.9.0-win32-ia32.zip",
+          "sha256": "b2bffc8875b9b90e257bd085c874aee1af9afd20691c2bf80277d54dedc17210"
         },
         "win32-x64": {
-          "fileName": "xpack-stm32cube-programmmer-v0.1.0-win32-x64.zip",
-          "sha256": "1d62f9c799b220e4355a523320f1a21f76b3a70ef912d41e2c77ef3c3c05e164"
+          "fileName": "xpack-stm32-cube-programmer-b2.9.0-win32-x64.zip",
+          "sha256": "02b3a31582e612118b63a1987b02ee0e6b9db67af90e0faacf2a242f7f0e8767"
         }
       }
     },
