@@ -1,6 +1,6 @@
 {
   "name": "@displode/stm32-cube-programmer-xpack",
-  "version": "0.1.5-b2.9.0",
+  "version": "0.1.6-b2.9.0",
   "description": "A binary xPack with STMicroelectronics STM32CubeProgrammer for all STM32",
   "main": "",
   "scripts": {},
@@ -32,10 +32,10 @@
   "devDependencies": {},
   "files": [],
   "xpack": {
-    "minimumXpmRequired": "0.10.8",
+    "minimumXpmRequired": "0.11.2",
     "binaries": {
       "destination": "./.content",
-      "baseUrl": "https://github.com/displode/stm32-cube-programmer-xpack/releases/download/v0.1.5-b2.9.0",
+      "baseUrl": "https://github.com/displode/stm32-cube-programmer-xpack/releases/download/xpack-v0.1.6-b2.9.0",
       "skip": 1,
       "platforms": {
         "linux-arm": {
